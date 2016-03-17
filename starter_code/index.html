@@ -20,20 +20,22 @@
     <!-- Bootstrap -->
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     <!-- Soundcloud API -->
-    <script src="//connect.soundcloud.com/sdk.js"></script>
+    <script src="//connect.soundcloud.com/sdk/sdk-3.0.0.js"></script>
     <!-- Our JS -->
     <script src="js/script.js"></script>
 
   </head>
   <body>
+    <body background="https://dennisboots.files.wordpress.com/2014/08/dg2.gif">
     <div class="container">
       <div class="jumbotron">
         <h1>Soundmood</h1>
-        <p class="lead">Listen to your heart, you can never go wrong.</p>
+        <p class="lead">Listen to your heart...or your stomach, you can never go wrong!</p>
         <form>
           <div class="input-group">
             <input id="mood" type="text" class="form-control" placeholder="How are you feeling?">
               <a id="go" class="input-group-addon" href="#" role="button">Go</a>
+              <button style="background-color:black" type="submit" id="reset-btn" class="btn btn-primary btn-block">Reset</button>
           </div>
         </form>
 
